@@ -1,66 +1,6 @@
 # Claude Skills 资源列表
 
-来源：https://github.com/ComposioHQ/awesome-claude-skills
+来源：
 
-| 名称 | 介绍 | GitHub 链接 |
-|---|---|---|
-| docx | Create, edit, analyze Word docs with tracked changes, comments, formatting. | https://github.com/anthropics/skills/tree/main/skills/docx |
-| pdf | Extract text, tables, metadata, merge & annotate PDFs. | https://github.com/anthropics/skills/tree/main/skills/pdf |
-| pptx | Read, generate, and adjust slides, layouts, templates. | https://github.com/anthropics/skills/tree/main/skills/pptx |
-| xlsx | Spreadsheet manipulation: formulas, charts, data transformations. | https://github.com/anthropics/skills/tree/main/skills/xlsx |
-| Markdown to EPUB Converter | Converts markdown documents and chat summaries into professional EPUB ebook files. *By [@smerchek](https://github.com/smerchek)* | https://github.com/smerchek/claude-epub-skill |
-| artifacts-builder | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). | https://github.com/anthropics/skills/tree/main/web-artifacts-builder |
-| aws-skills | AWS development with CDK best practices, cost optimization MCP servers, and serverless/event-driven architecture patterns. | https://github.com/zxkane/aws-skills |
-| Changelog Generator | Automatically creates user-facing changelogs from git commits by analyzing history and transforming technical commits into customer-friendly release notes. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator/ |
-| Claude Code Terminal Title | Gives each Claud-Code terminal window a dynamic title that describes the work being done so you don't lose track of what window is doing what. | https://github.com/bluzername/claude-code-terminal-title |
-| D3.js Visualization | Teaches Claude to produce D3 charts and interactive data visualizations. *By [@chrisvoncsefalvay](https://github.com/chrisvoncsefalvay)* | https://github.com/chrisvoncsefalvay/claude-d3js-skill |
-| FFUF Web Fuzzing | Integrates the ffuf web fuzzer so Claude can run fuzzing tasks and analyze results for vulnerabilities. *By [@jthack](https://github.com/jthack)* | https://github.com/jthack/ffuf_claude_skill |
-| finishing-a-development-branch | Guides completion of development work by presenting clear options and handling chosen workflow. | https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch |
-| iOS Simulator | Enables Claude to interact with iOS Simulator for testing and debugging iOS applications. *By [@conorluddy](https://github.com/conorluddy)* | https://github.com/conorluddy/ios-simulator-skill |
-| MCP Builder | Guides creation of high-quality MCP (Model Context Protocol) servers for integrating external APIs and services with LLMs using Python or TypeScript. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder/ |
-| move-code-quality-skill | Analyzes Move language packages against the official Move Book Code Quality Checklist for Move 2024 Edition compliance and best practices. | https://github.com/1NickPappas/move-code-quality-skill |
-| Playwright Browser Automation | Model-invoked Playwright automation for testing and validating web applications. *By [@lackeyjb](https://github.com/lackeyjb)* | https://github.com/lackeyjb/playwright-skill |
-| prompt-engineering | Teaches well-known prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles. | https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering |
-| pypict-claude-skill | Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) for requirements or code, generating optimized test suites with pairwise coverage. | https://github.com/omkamal/pypict-claude-skill |
-| Skill Creator | Provides guidance for creating effective Claude Skills that extend capabilities with specialized knowledge, workflows, and tool integrations. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-creator/ |
-| Skill Seekers | Automatically converts any documentation website into a Claude AI skill in minutes. *By [@yusufkaraaslan](https://github.com/yusufkaraaslan)* | https://github.com/yusufkaraaslan/Skill_Seekers |
-| software-architecture | Implements design patterns including Clean Architecture, SOLID principles, and comprehensive software design best practices. | https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd/skills/software-architecture |
-| subagent-driven-development | Dispatches independent subagents for individual tasks with code review checkpoints between iterations for rapid, controlled development. | https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd/skills/subagent-driven-development |
-| test-driven-development | Use when implementing any feature or bugfix, before writing implementation code. | https://github.com/obra/superpowers/tree/main/skills/test-driven-development |
-| using-git-worktrees | Creates isolated git worktrees with smart directory selection and safety verification. | https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/ |
-| Webapp Testing | Tests local web applications using Playwright for verifying frontend functionality, debugging UI behavior, and capturing screenshots. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/webapp-testing/ |
-| CSV Data Summarizer | Automatically analyzes CSV files and generates comprehensive insights with visualizations without requiring user prompts. *By [@coffeefuelbump](https://github.com/coffeefuelbump)* | https://github.com/coffeefuelbump/csv-data-summarizer-claude-skill |
-| postgres | Execute safe read-only SQL queries against PostgreSQL databases with multi-connection support and defense-in-depth security. *By [@sanjay3290](https://github.com/sanjay3290)* | https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres |
-| root-cause-tracing | Use when errors occur deep in execution and you need to trace back to find the original trigger. | https://github.com/obra/superpowers/tree/main/skills/root-cause-tracing |
-| Brand Guidelines | Applies Anthropic's official brand colors and typography to artifacts for consistent visual identity and professional design standards. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/brand-guidelines/ |
-| Competitive Ads Extractor | Extracts and analyzes competitors' ads from ad libraries to understand messaging and creative approaches that resonate. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor/ |
-| Domain Name Brainstormer | Generates creative domain name ideas and checks availability across multiple TLDs including .com, .io, .dev, and .ai extensions. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer/ |
-| Internal Comms | Helps write internal communications including 3P updates, company newsletters, FAQs, status reports, and project updates using company-specific formats. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/internal-comms/ |
-| Lead Research Assistant | Identifies and qualifies high-quality leads by analyzing your product, searching for target companies, and providing actionable outreach strategies. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/lead-research-assistant/ |
-| article-extractor | Extract full article text and metadata from web pages. | https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/article-extractor |
-| brainstorming | Transform rough ideas into fully-formed designs through structured questioning and alternative exploration. | https://github.com/obra/superpowers/tree/main/skills/brainstorming |
-| Content Research Writer | Assists in writing high-quality content by conducting research, adding citations, improving hooks, and providing section-by-section feedback. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer/ |
-| family-history-research | Provides assistance with planning family history and genealogy research projects. | https://github.com/emaynard/claude-family-history-research-skill |
-| Meeting Insights Analyzer | Analyzes meeting transcripts to uncover behavioral patterns including conflict avoidance, speaking ratios, filler words, and leadership style. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer/ |
-| NotebookLM Integration | Lets Claude Code chat directly with NotebookLM for source-grounded answers based exclusively on uploaded documents. *By [@PleasePrompto](https://github.com/PleasePrompto)* | https://github.com/PleasePrompto/notebooklm-skill |
-| Canvas Design | Creates beautiful visual art in PNG and PDF documents using design philosophy and aesthetic principles for posters, designs, and static pieces. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/canvas-design/ |
-| imagen | Generate images using Google Gemini's image generation API for UI mockups, icons, illustrations, and visual assets. *By [@sanjay3290](https://github.com/sanjay3290)* | https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen |
-| Image Enhancer | Improves image and screenshot quality by enhancing resolution, sharpness, and clarity for professional presentations and documentation. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer/ |
-| Slack GIF Creator | Creates animated GIFs optimized for Slack with validators for size constraints and composable animation primitives. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/slack-gif-creator/ |
-| Theme Factory | Applies professional font and color themes to artifacts including slides, docs, reports, and HTML landing pages with 10 pre-set themes. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/theme-factory/ |
-| Video Downloader | Downloads videos from YouTube and other platforms for offline viewing, editing, or archival with support for various formats and quality options. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/video-downloader/ |
-| youtube-transcript | Fetch transcripts from YouTube videos and prepare summaries. | https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/youtube-transcript |
-| File Organizer | Intelligently organizes files and folders by understanding context, finding duplicates, and suggesting better organizational structures. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer/ |
-| Invoice Organizer | Automatically organizes invoices and receipts for tax preparation by reading files, extracting information, and renaming consistently. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer/ |
-| kaizen | Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology. | https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen/skills/kaizen |
-| n8n-skills | Enables AI assistants to directly understand and operate n8n workflows. | https://github.com/haunchen/n8n-skills |
-| Raffle Winner Picker | Randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests with cryptographically secure randomness. | https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker/ |
-| ship-learn-next | Skill to help iterate on what to build or learn next, based on feedback loops. | https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/ship-learn-next |
-| tapestry | Interlink and summarize related documents into knowledge networks. | https://github.com/michalparkola/tapestry-skills-for-claude-code/tree/main/tapestry |
-| git-pushing | Automate git operations and repository interactions. | https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/git-pushing |
-| review-implementing | Evaluate code implementation plans and align with specs. | https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/review-implementing |
-| test-fixing | Detect failing tests and propose patches or fixes. | https://github.com/mhattingpete/claude-skills-marketplace/tree/main/engineering-workflow-plugin/skills/test-fixing |
-| computer-forensics | Digital forensics analysis and investigation techniques. | https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/computer-forensics |
-| file-deletion | Secure file deletion and data sanitization methods. | https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/file-deletion |
-| metadata-extraction | Extract and analyze file metadata for forensic purposes. | https://github.com/mhattingpete/claude-skills-marketplace/tree/main/computer-forensics-skills/skills/metadata-extraction |
-| threat-hunting-with-sigma-rules | Use Sigma detection rules to hunt for threats and analyze security events. | https://github.com/jthack/threat-hunting-with-sigma-rules-skill |
+1. https://github.com/ComposioHQ/awesome-claude-skills
+2. https://skills.sh/
